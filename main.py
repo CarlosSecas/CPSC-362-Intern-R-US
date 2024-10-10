@@ -15,7 +15,7 @@ st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
 st.title("Intern R Us :sparkles:")
 
 # Subtitle
-st.subheader("A database of CS internships by CS students :100:")
+st.subheader("A database of CS internships by CS students :technologist:")
 
 # Sidebar for user input
 st.sidebar.header("Filter Internships")
