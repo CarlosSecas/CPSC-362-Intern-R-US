@@ -1,5 +1,5 @@
 # CPSC-362-Intern-R-US
 
 Tasks:
-- find a database/ create our own
+- add more internships to database
 - improve current website
