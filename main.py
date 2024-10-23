@@ -16,6 +16,8 @@ internship_data = {
 # Streamlit app setup
 st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
 
+st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
+
 # Title of the app
 st.title("Intern R Us :sparkles:")
 
