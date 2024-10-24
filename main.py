@@ -1,6 +1,7 @@
 import streamlit as st
 from internshipsLists import csList, eeList, ceList, meList, businessList, accountingList, communicationList
 from city_to_county import get_county_from_city
+from sortDatePublished import sort_internships
 import pandas as pd
 
 # Map majors to their corresponding internship lists
@@ -39,7 +40,7 @@ if major:
     
     if internships:
         for internship in internships:
-            company, position, location, link = internship
+            company, position, location, link, date = internship
             # Get the county from the location
             internship_county = get_county_from_city(location)
             
@@ -48,7 +49,7 @@ if major:
                 continue
             
             # Display the internship without the county in the location
-            st.write(f"- **{company}**: {position} ({location.split(',')[0]}) - [More Info]({link})")
+            st.write(f"- **{company}** {date}: {position} ({location.split(',')[0]}) - [More Info]({link})")
     else:
         st.write("No internships available for this major.")
 
