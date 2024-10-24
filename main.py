@@ -1,6 +1,7 @@
 import streamlit as st
 from internshipsLists import csList, eeList, ceList, meList, businessList, accountingList, communicationList
 from city_to_county import get_county_from_city
+import pandas as pd
 
 # Map majors to their corresponding internship lists
 internship_data = {

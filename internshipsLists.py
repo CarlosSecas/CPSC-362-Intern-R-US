@@ -7,7 +7,7 @@ csList = [
     ["Cloud Systems", "DevOps Intern", "Pasadena, CA", "http://cloudsystems.com/internship", "09-10-2024"],
     ["GreenTech", "Mobile App Intern", "Los Angeles, CA", "http://greentech.com/internship", "07-15-2024"],
     ["Innovative Designs", "Game Development Intern", "Los Angeles, CA", "http://innovativedesigns.com/internship", "09-25-2024"],
-    ["Data Insights", "Machine Learning Intern", "Los Angeles, CA", "http://datainsights.com/internship", "10-05-2024"]
+    ["Data Insights", "Machine Learning Intern", "Los Angeles, CA", "http://datainsights.com/internship", "10-05-2024"],
     ["Tech Solutions", "Software Development Intern", "Irvine, CA", "http://techsolutions.com/internship", "10-12-2024"],
     ["Innovative Apps", "Frontend Developer Intern", "Santa Ana, CA", "http://innovativeapps.com/internship", "09-25-2024"],
     ["Data Dynamics", "Data Science Intern", "Orange, CA", "http://datadynamics.com/internship", "10-05-2024"],
@@ -27,7 +27,7 @@ eeList = [
     ["Smart Energy Corp.", "Power Systems Intern", "Burbank, CA", "http://smartenergy.com/internship", "09-10-2024"],
     ["Robotics Innovations", "Control Systems Intern", "Los Angeles, CA", "http://roboticsinnovations.com/internship", "08-25-2024"],
     ["GreenTech Solutions", "Renewable Energy Intern", "Culver City, CA", "http://greentechsolutions.com/internship", "09-05-2024"],
-    ["Microchip Technologies", "Circuit Design Intern", "Glendale, CA", "http://microchiptech.com/internship", "10-10-2024"]
+    ["Microchip Technologies", "Circuit Design Intern", "Glendale, CA", "http://microchiptech.com/internship", "10-10-2024"],
     ["ElectroDynamics", "Electrical Engineering Intern", "Irvine, CA", "http://electrodynamics.com/internship", "10-12-2024"],
     ["Innovative Circuits", "Power Electronics Intern", "Santa Ana, CA", "http://innovativecircuits.com/internship", "09-28-2024"],
     ["NextGen Energy", "Control Systems Intern", "Anaheim, CA", "http://nextgenenergy.com/internship", "09-15-2024"],
@@ -47,7 +47,7 @@ ceList = [
     ["Civil Design Group", "Transportation Intern", "Burbank, CA", "http://civildesigngroup.com/internship", "09-10-2024"],
     ["Sustainable Structures", "Project Management Intern", "Culver City, CA", "http://sustainablestructures.com/internship", "08-25-2024"],
     ["Infrastructure Solutions", "Water Resources Intern", "Los Angeles, CA", "http://infrastructuresolutions.com/internship", "09-05-2024"],
-    ["City Planning Associates", "Urban Planning Intern", "Glendale, CA", "http://cityplanningassociates.com/internship", "10-10-2024"]
+    ["City Planning Associates", "Urban Planning Intern", "Glendale, CA", "http://cityplanningassociates.com/internship", "10-10-2024"],
     ["Orange County Public Works", "Civil Engineering Intern", "Santa Ana, CA", "http://ocpublicworks.com/internship", "10-12-2024"],
     ["EcoCivil Solutions", "Environmental Engineering Intern", "Irvine, CA", "http://ecocivilsolutions.com/internship", "09-30-2024"],
     ["Innovative Structures", "Structural Engineering Intern", "Anaheim, CA", "http://innovativestructures.com/internship", "09-20-2024"],
@@ -67,7 +67,7 @@ meList = [
     ["Smart Systems Corp.", "Product Development Intern", "Santa Monica, CA", "http://smartsystems.com/internship", "08-25-2024"],
     ["Mechanical Innovations", "CAD Intern", "Culver City, CA", "http://mechanicalinnovations.com/internship", "09-05-2024"],
     ["Precision Engineering", "Quality Assurance Intern", "Glendale, CA", "http://precisionengineering.com/internship", "10-01-2024"],
-    ["Sustainable Engineering Group", "Renewable Energy Intern", "Torrance, CA", "http://sustainableengineering.com/internship", "09-15-2024"]
+    ["Sustainable Engineering Group", "Renewable Energy Intern", "Torrance, CA", "http://sustainableengineering.com/internship", "09-15-2024"],
     ["Precision Dynamics", "Mechanical Engineering Intern", "Irvine, CA", "http://precisiondynamics.com/internship", "10-12-2024"],
     ["Tech Innovations", "Design Engineering Intern", "Santa Ana, CA", "http://techinnovations.com/internship", "09-30-2024"],
     ["AeroDynamics", "Manufacturing Intern", "Anaheim, CA", "http://aerodynamics.com/internship", "09-20-2024"],
@@ -87,7 +87,7 @@ businessList = [
     ["Tech Innovations", "Sales Intern", "Irvine, CA", "http://techinnovations.com/internship", "08-28-2024"],
     ["Startup Incubator", "Operations Intern", "Pasadena, CA", "http://startupincubator.com/internship", "09-05-2024"],
     ["Retail Group", "E-commerce Intern", "Los Angeles, CA", "http://retailgroup.com/internship", "10-01-2024"],
-    ["Consulting Firm", "Research Intern", "Long Beach, CA", "http://consultingfirm.com/internship", "09-15-2024"]
+    ["Consulting Firm", "Research Intern", "Long Beach, CA", "http://consultingfirm.com/internship", "09-15-2024"],
     ["Innovative Solutions Inc.", "Business Analyst Intern", "Irvine, CA", "http://innovativesolutions.com/internship", "10-15-2024"],
     ["Marketing Dynamics", "Marketing Intern", "Santa Ana, CA", "http://marketingdynamics.com/internship", "09-30-2024"],
     ["Finance Group", "Financial Intern", "Anaheim, CA", "http://financegroup.com/internship", "09-20-2024"],
@@ -107,7 +107,7 @@ accountingList = [
     ["Accounting Associates", "Bookkeeping Intern", "Pasadena, CA", "http://accountingassociates.com/internship", "08-28-2024"],
     ["Corporate Finance Inc.", "Forensic Accounting Intern", "Hollywood, CA", "http://corporatefinance.com/internship", "09-05-2024"],
     ["Business Consulting", "Internal Audit Intern", "Culver City, CA", "http://businessconsulting.com/internship", "10-01-2024"],
-    ["Tax Advisors", "Compliance Intern", "Glendale, CA", "http://taxadvisors.com/internship", "09-15-2024"]
+    ["Tax Advisors", "Compliance Intern", "Glendale, CA", "http://taxadvisors.com/internship", "09-15-2024"],
     ["Orange County Finance", "Accounting Intern", "Irvine, CA", "http://orangecountyfinance.com/internship", "10-12-2024"],
     ["Tax Solutions Group", "Tax Intern", "Santa Ana, CA", "http://taxsolutionsgroup.com/internship", "09-30-2024"],
     ["Pro Accounting Services", "Audit Intern", "Anaheim, CA", "http://proaccountingservices.com/internship", "09-20-2024"],
