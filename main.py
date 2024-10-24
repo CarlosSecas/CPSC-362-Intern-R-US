@@ -39,6 +39,7 @@ if major:
     internships = internship_data.get(major, [])
     
     if internships:
+        i = 1
         for internship in internships:
             company, position, location, link, date = internship
             # Get the county from the location
@@ -49,7 +50,19 @@ if major:
                 continue
             
             # Display the internship without the county in the location
-            st.write(f"- **{company}** {date}: {position} ({location.split(',')[0]}) - [More Info]({link})")
+            # st.write(f"- **{company}** {date}: {position} ({location.split(',')[0]}) - [More Info]({link})")
+            df = pd.DataFrame(
+                [
+                    {"Company": company, "Date": date, "Position": position, "Location": location, "More Info": link,}
+                ]
+            )
+                
+            if i == 1:
+                table = st.table(df)
+                i += 1
+            else:
+                table.add_rows(df)
+
     else:
         st.write("No internships available for this major.")
 
