@@ -21,7 +21,7 @@ internship_data = {
 st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
 
 # Title of the app
-st.title("Intern R Us :sparkles:")
+st.title(":red[I]:orange[n]:green[t]:red[e]:orange[r]:green[n]:red[s] :blue[R] :green[U]:red[s] :sparkles:")
 st.subheader("A database of internships categorized by major :technologist:")
 
 # Sidebar for user input
