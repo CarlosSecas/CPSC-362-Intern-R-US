@@ -1,15 +1,15 @@
 # CPSC-362-Intern-R-US
 
-ToDoList:
+ToDoList: 10/31
 
 InternshipsDataBase:
 - Add more Internships and Majors
-    - Add Date Published as a new Parameter
-
-Intership Class:
-- create a sort function by Date: Newest to Oldest
-- sort by Couty: LA/OG County
 
 Homepage:
-- Link Internships to Website
+- Implement Sort by Date into Streamlit
+- Link new Internships to Website
 - Update Website: More features Possibly / Update Look
+- Implement Dynamic Table
+- Implement Contact Us Feature
+
+

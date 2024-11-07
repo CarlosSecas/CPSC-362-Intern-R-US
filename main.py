@@ -3,6 +3,8 @@ import streamlit as st
 from datetime import datetime
 from internshipsLists import csList, eeList, ceList, meList, businessList, accountingList, communicationList
 from city_to_county import get_county_from_city
+from sortDatePublished import sort_internships
+import pandas as pd
 
 # Map majors to their corresponding internship lists
 internship_data = {
@@ -59,6 +61,7 @@ if major:
     internships = internship_data.get(major, [])
     
     if internships:
+        i = 1
         for internship in internships:
             company, position, location, link = internship
             internship_county = get_county_from_city(location)
