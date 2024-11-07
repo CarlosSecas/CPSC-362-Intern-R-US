@@ -63,14 +63,36 @@ if major:
     if internships:
         i = 1
         for internship in internships:
-            company, position, location, link = internship
+            company, position, location, link, date = internship
             internship_county = get_county_from_city(location)
             
             # Filter by county if selected by the user
             if county and internship_county != county:
                 continue
             
-            st.write(f"- **{company}**: {position} ({location.split(',')[0]}) - [More Info]({link})")
+            # st.write(f"- **{company}** {date}: {position} ({location.split(',')[0]}) - [More Info]({link})")
+            df = pd.DataFrame(
+                [
+                    {"Company": company, 
+                     "Date": date, 
+                     "Position": position, 
+                     "Location": location, 
+                     "More Info": link,}
+                ]
+            )
+            
+            if i == 1:
+                table = st.dataframe(
+                df,
+                width=9999,
+                column_config={
+                    "More Info": st.column_config.LinkColumn("Website URL"),
+                },
+                hide_index=True,
+            )
+                i += 1
+            else:
+                table.add_rows(df)
     else:
         st.write("No internships available for this major.")
 

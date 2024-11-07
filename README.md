@@ -12,4 +12,8 @@ Homepage:
 - Implement Dynamic Table
 - Implement Contact Us Feature
 
+HOW TO USE CONTACT US:
+- sqlite3 messages.db in terminal
+- .tables
+- SELECT * FROM messages
 
