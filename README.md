@@ -1,16 +1,25 @@
 # CPSC-362-Intern-R-US
 
-ToDoList: 10/31
+ToDoList: 11/19
 
 InternshipsDataBase:
 - Add more Internships and Majors
 
 Homepage:
-- Implement Sort by Date into Streamlit
 - Link new Internships to Website
 - Update Website: More features Possibly / Update Look
-- Implement Dynamic Table
-- Implement Contact Us Feature
+- Add Faang Section
+- (Potential) Create a favorite list
+
+Documents needed for the project:
+1. Activity Diagram               //DONE : UPDATE
+2. Use Case Diagram
+3. CRC Diagrams                   //DONE
+4. Source Code in a zip file
+5. Read me file (text)
+6. Executable file
+7. Final presentation PPT file
+8. Test Cases
 
 HOW TO USE CONTACT US:
 - sqlite3 messages.db in terminal
