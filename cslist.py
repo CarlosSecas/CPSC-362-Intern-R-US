@@ -15,3 +15,45 @@ cslist = [
     ["Google", "Software Engineer Intern", "Los Angeles, CA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
     ["Trace3", "Data and Analytics Intern", "Irvine, CA", "https://boards.greenhouse.io/trace3/jobs/6375609?utm_source=Simplify&ref=Simplify", "11-05-2024"]
 ]
+
+"""Copy and Paste this into their locaton"""
+
+from internshipsList import chemList, bioList, nurseList, econList, markList, financeList, psychList, crimList, polList, mathList, physicsList
+
+"""List of Chemistry Internships"""
+chemList = []
+"""List of Biology Internships"""
+bioList = []
+"""List of Nursing Internships"""
+nurseList= []
+"""List of Economics Internships"""
+econList = []
+"""List of Marketing Internships"""
+markList = []
+"""List of Finance Internships"""
+financeList = []
+"""List of Psychology Internships"""
+psychList = []
+"""List of Criminal Justice Internships"""
+crimList = []
+"""List of Political Science Internships"""
+polList = []
+"""List of Math Internships"""
+mathList = []
+"""List of Physics Internships"""
+physicsList = []
+
+
+internship_data = {
+    "Chemistry": chemList,
+    "Biology": bioList,
+    "Nursing": nurseList,
+    "Economics": econList,
+    "Marketing": markList,
+    "Finance": financeList,
+    "Psychology": psychList,
+    "Criminal Justice": crimList,
+    "Political Science": polList,
+    "Math": mathList;
+    "Physics": physicsList
+}
