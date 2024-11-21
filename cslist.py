@@ -1,5 +1,5 @@
 cslist = [
-    ["Netflix", "Software Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024",],
+    ["Netflix", "Software Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024"],
     ["TikTok", "Mobile Software Engineer Intern - User Relation", "Los Angeles, CA", "https://lifeattiktok.com/search/7390530196414613811?ref=Simplify&utm_source=Simplify", "07-19-2024"],
     ["Paramount", "Software Engineer Internships (Summer 2025 / Hybrid - NYC/LA)", "West Hollywood, CA", "https://careers.paramount.com/job/West-Hollywood-Software-Engineering-Internships-%28Summer-2025%2C-Hybrid-NYCLA%29-CA-90069/1229684800?utm_source=Simplify&ref=Simplify", "11-07-2024"],
     ["Blizzard Entertainment", "2025 US Summer Internship - AI Localization", "Irvine, CA", "https://activision.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Localization-Production-Internship_R024248?utm_source=Simplify&ref=Simplify", "11-04-2025"],
