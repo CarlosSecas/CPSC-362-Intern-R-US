@@ -54,6 +54,6 @@ internship_data = {
     "Psychology": psychList,
     "Criminal Justice": crimList,
     "Political Science": polList,
-    "Math": mathList;
+    "Math": mathList,
     "Physics": physicsList
 }
