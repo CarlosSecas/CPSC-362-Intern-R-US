@@ -1,21 +1,20 @@
 """List of Computer Science Internships"""
 csList = [
-    ["Tech Innovations", "Software Engineering Intern", "Los Angeles, CA", "http://techinnovations.com/internship", "10-15-2024"],
-    ["Creative Solutions", "Data Analyst Intern", "Los Angeles, CA", "http://creativesolutions.com/internship", "09-20-2024"],
-    ["NextGen Technologies", "Web Development Intern", "Santa Monica, CA", "http://nextgentech.com/internship", "10-01-2024"],
-    ["Future Vision", "AI Research Intern", "Los Angeles, CA", "http://futurevision.com/internship", "08-30-2024"],
-    ["Cloud Systems", "DevOps Intern", "Pasadena, CA", "http://cloudsystems.com/internship", "09-10-2024"],
-    ["GreenTech", "Mobile App Intern", "Los Angeles, CA", "http://greentech.com/internship", "07-15-2024"],
-    ["Innovative Designs", "Game Development Intern", "Los Angeles, CA", "http://innovativedesigns.com/internship", "09-25-2024"],
-    ["Data Insights", "Machine Learning Intern", "Los Angeles, CA", "http://datainsights.com/internship", "10-05-2024"],
-    ["Tech Solutions", "Software Development Intern", "Irvine, CA", "http://techsolutions.com/internship", "10-12-2024"],
-    ["Innovative Apps", "Frontend Developer Intern", "Santa Ana, CA", "http://innovativeapps.com/internship", "09-25-2024"],
-    ["Data Dynamics", "Data Science Intern", "Orange, CA", "http://datadynamics.com/internship", "10-05-2024"],
-    ["Cybersecurity Corp", "Security Analyst Intern", "Anaheim, CA", "http://cybersecuritycorp.com/internship", "09-15-2024"],
-    ["Creative Technologies", "UI/UX Intern", "Costa Mesa, CA", "http://creativetechnologies.com/internship", "08-30-2024"],
-    ["NextGen Solutions", "Backend Developer Intern", "Fullerton, CA", "http://nextgensolutions.com/internship", "09-10-2024"],
-    ["Smart Systems", "Machine Learning Intern", "Huntington Beach, CA", "http://smartsystems.com/internship", "09-20-2024"],
-    ["Digital Innovations", "Mobile Development Intern", "Laguna Niguel, CA", "http://digitalinnovations.com/internship", "10-01-2024"]
+    ["Netflix", "Software Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024"], 
+    ["TikTok", "Mobile Software Engineer Intern - User Relation", "Los Angeles, CA", "https://lifeattiktok.com/search/7390530196414613811?ref=Simplify&utm_source=Simplify", "07-19-2024"],
+    ["Paramount", "Software Engineer Internships (Summer 2025 / Hybrid - NYC/LA)", "West Hollywood, CA", "https://careers.paramount.com/job/West-Hollywood-Software-Engineering-Internships-%28Summer-2025%2C-Hybrid-NYCLA%29-CA-90069/1229684800?utm_source=Simplify&ref=Simplify", "11-07-2024"],
+    ["Blizzard Entertainment", "2025 US Summer Internship - AI Localization", "Irvine, CA", "https://activision.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Localization-Production-Internship_R024248?utm_source=Simplify&ref=Simplify", "11-04-2025"],
+    ["Blizzard Entertainment", "2025 US Summer Internship - Site Reliability Engineering", "Irvine, CA", "https://careers.blizzard.com/global/en/job/BLENGLOBALR024237EXTERNALENGLOBAL/2025-US-Summer-Internship-Site-Reliability-Engineering?utm_source=Simplify&ref=Simplify", "11-04-2025"],
+    ["Activision - Blizzard", "2025 US Summer Internship - Software Engineering", "Irivine, CA", "https://activision.wd1.myworkdayjobs.com/External/job/Irvine---Blizzard---Blizzard-Way/XMLNAME-2025-US-Summer-Internship---Software-Engineering_R023721?utm_source=Simplify&ref=Simplify", "11-04-2024"],
+    ["Activision - Blizzard", "2025 US Summer Internship - Game Engineering", "Santa Monica, CA", "https://activision.wd1.myworkdayjobs.com/External/job/Santa-Monica/XMLNAME-2025-US-Summer-Internship---Game-Engineering_R023720-1?utm_source=Simplify&ref=Simplify", "11-04-2024"],
+    ["Activision - Blizzard", "2025 US Summer Internship - Game Engineering", "Irvine, CA", "https://activision.wd1.myworkdayjobs.com/External/job/Santa-Monica/XMLNAME-2025-US-Summer-Internship---Game-Engineering_R023720-1?utm_source=Simplify&ref=Simplify", "11-04-2024"],
+    ["Pacific Life", "Data Analytics Intern", "Newport Beach, CA", "https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Data-Analytics-Intern_R13239?utm_source=Simplify&ref=Simplify", "10-25-2024"],
+    ["Pacific Life", "Data Engineering Intern", "Newport Beach, CA", "https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Data-Engineering-Intern_R13240?utm_source=Simplify&ref=Simplify", "10-25-2024"],
+    ["Pacific Life", "Software Engineering Intern", "Newport Beach, CA", "https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Software-Engineering-Intern_R13241?utm_source=Simplify&ref=Simplify", "10-25-2024"],
+    ["March Industries", "Summer Intern 2025 - Software Engineer", "Huntington Beach, CA", "https://jobs.ashbyhq.com/mach/ae1694b8-509d-4ce3-84eb-0a4ccab4870e/application?utm_source=Simplify&ref=Simplify", "10-13-2024"],
+    ["Google", "Software Engineer Intern", "Irvine, CA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+    ["Google", "Software Engineer Intern", "Los Angeles, CA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+    ["Trace3", "Data and Analytics Intern", "Irvine, CA", "https://boards.greenhouse.io/trace3/jobs/6375609?utm_source=Simplify&ref=Simplify", "11-05-2024"]
 ]
 
 """List of Electricl Engineer Internships"""

@@ -55,9 +55,15 @@ def save_message(name, email, message):
                    (name, email, message))
     conn.commit()
 
+# Display search bar
+intern_search = st.text_input("Search Internships by Company or Position!", value="")
+
+# Space Separator
+st.text("")
+
 # Display internships based on the selected major and county
 if major:
-    st.header(f"Available Internships for {major}")
+    st.subheader(f"Available Internships for {major}")
     internships = internship_data.get(major, [])
     
     if internships:
@@ -81,6 +87,13 @@ if major:
                 ]
             )
             
+            m1 = df["Company"].str.contains(intern_search)
+            m2 = df["Position"].str.contains(intern_search)
+            df_search = df[m1 | m2]
+
+            if intern_search:
+                st.write(df_search)
+
             if i == 1:
                 table = st.dataframe(
                 df,
@@ -93,6 +106,7 @@ if major:
                 i += 1
             else:
                 table.add_rows(df)
+
     else:
         st.write("No internships available for this major.")
 
