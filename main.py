@@ -62,53 +62,60 @@ intern_search = st.text_input("Search Internships by Company or Position!", valu
 st.text("")
 
 # Display internships based on the selected major and county
-if major:
-    st.subheader(f"Available Internships for {major}")
-    internships = internship_data.get(major, [])
-    
-    if internships:
-        i = 1
-        for internship in internships:
-            company, position, location, link, date = internship
-            internship_county = get_county_from_city(location)
-            
-            # Filter by county if selected by the user
-            if county and internship_county != county:
-                continue
-            
-            # st.write(f"- **{company}** {date}: {position} ({location.split(',')[0]}) - [More Info]({link})")
-            df = pd.DataFrame(
-                [
-                    {"Company": company, 
-                     "Date": date, 
-                     "Position": position, 
-                     "Location": location, 
-                     "More Info": link,}
-                ]
-            )
-            
-            m1 = df["Company"].str.contains(intern_search)
-            m2 = df["Position"].str.contains(intern_search)
-            df_search = df[m1 | m2]
-
-            if intern_search:
-                st.write(df_search)
-
-            if i == 1:
-                table = st.dataframe(
-                df,
-                width=9999,
-                column_config={
-                    "More Info": st.column_config.LinkColumn("Website URL"),
-                },
-                hide_index=True,
-            )
-                i += 1
-            else:
-                table.add_rows(df)
-
+if major or intern_search:  # Trigger search if either a major is selected or the search bar is used
+    if major:
+        st.subheader(f"Available Internships for {major}")
+        internships = internship_data.get(major, [])
     else:
-        st.write("No internships available for this major.")
+        # If no major is selected, include all internships for the search
+        internships = sum(internship_data.values(), [])
+
+    if internships:
+        # Create a DataFrame for the internships
+        df = pd.DataFrame(internships, columns=["Company", "Position", "Location", "Link", "Date"])
+        df["County"] = df["Location"].apply(get_county_from_city)
+
+        # Apply search filter first if a search query is provided
+        if intern_search:
+            df = df[
+                df["Company"].str.contains(intern_search, case=False, na=False) |
+                df["Position"].str.contains(intern_search, case=False, na=False)
+            ]
+
+        # Apply major filter (if selected)
+        if major:
+            df_major = pd.DataFrame(
+                internship_data.get(major, []),
+                columns=["Company", "Position", "Location", "Link", "Date"]
+            )
+            df_major["County"] = df_major["Location"].apply(get_county_from_city)
+
+            # Merge the filtered DataFrame with the major-specific DataFrame
+            # Ensure both DataFrames have the same columns
+            df = pd.merge(
+                df,
+                df_major,
+                how="inner",
+                on=["Company", "Position", "Location", "Link", "Date", "County"]
+            )
+
+        # Apply county filter if selected
+        if county:
+            df = df[df["County"] == county]
+
+        # Display the filtered internships
+        if not df.empty:
+            st.dataframe(
+                df[["Company", "Date", "Position", "Location", "Link"]],
+                width=9999,
+                column_config={"Link": st.column_config.LinkColumn("Website URL")},
+                hide_index=True
+            )
+            st.markdown(f"**{len(df)}** internships found matching your criteria.")
+        else:
+            st.write("No internships found matching your search criteria.")
+    else:
+        st.write("No internships available for the selected major.")
 
 # Contact form feature
 st.sidebar.header("Contact Us")
