@@ -1,3 +1,31 @@
+"""List of FAANG Internships in the US"""
+faangList = [
+  ["Amazon", "Software Development Engineer Internship in Test- 2025 (US)", "SunnyVale, CA", "not-available", "11-14-2024"],
+  ["Amazon", "Software Development Engineer Internship in Test- 2025 (US)", "Irvine, CA", "not-available", "11-14-2024"],
+  ["Amazon", "Software Development Engineer Internship in Test- 2025 (US)", "Seattle, Wa", "not-available", "11-14-2024"],
+  ["Amazon", "Software Development Engineer Internship - 2025 (US)", "Seattle, WA", "https://www.amazon.jobs/en/jobs/2808739/software-development-engineer-internship-2025-us?utm_source=Simplify&ref=Simplify", "10-17-2024"],
+  ["Amazon", "Software Dev Engineer Intern 2025 - Automated Reasoning", "Seattle, WA", "https://amazon.jobs/en/jobs/2798104/software-dev-engineer-intern-2025-automated-reasoning?utm_source=Simplify&ref=Simplify", "10-07-2024"],
+  ["Amazon", "Software Dev Engineer Intern 2025 - Automated Reasoning", "Arlington, VA", "https://amazon.jobs/en/jobs/2798104/software-dev-engineer-intern-2025-automated-reasoning?utm_source=Simplify&ref=Simplify", "10-07-2024"],
+  ["Amazon", "Software Dev Engineer Intern 2025 - Automated Reasoning", "Portland, OR", "https://amazon.jobs/en/jobs/2798104/software-dev-engineer-intern-2025-automated-reasoning?utm_source=Simplify&ref=Simplify", "10-07-2024"],
+  ["Amazon", "Software Dev Engineer Intern - Compiler - Annapurna ML", "Cupertino, CA", "https://amazon.jobs/en/jobs/2794068/2025-software-dev-engineer-intern-compiler-annapurna-ml?ref=Simplify&utm_source=Simplify", "10-03-2024"],
+  ["Amazon", "Software Dev Engineer Intern - Embedded - Runtime - Storage - System & Performance - Annapurna ML", "Cupertino, CA", "https://amazon.jobs/en/jobs/2794071/2025-software-dev-engineer-intern-embedded-runtime-storage-system-performance-annapurna-ml?ref=Simplify&utm_source=Simplify", "10-03-2024"],
+  ["Amazon", "Software Dev Engineer Intern - Embedded - Runtime - Storage - System & Performance - Annapurna ML", "Seattle, WA", "https://amazon.jobs/en/jobs/2794071/2025-software-dev-engineer-intern-embedded-runtime-storage-system-performance-annapurna-ml?ref=Simplify&utm_source=Simplify", "10-03-2024"],
+
+  ["Netflix", "Software Engineer Intern", "Los Gatos, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024"],
+  ["Netflix", "Software Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024"],
+
+  ["Netflix", "Data Visualization Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790299767067?utm_source=Simplify&ref=Simplify", "12-01-2024"],
+  ["Netflix", "Data Visualization Engineer Intern", "Los Gatos, CA", "https://explore.jobs.netflix.net/careers/job/790299767067?utm_source=Simplify&ref=Simplify", "12-01-2024"],
+
+  ["Google", "Software Engineering Intern", "Atlanta, GA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+  ["Google", "Software Engineering Intern", "Austin, TX", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+  ["Google", "Software Engineering Intern", "Boulder, CO", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+  ["Google", "Software Engineering Intern", "Portlan, OR", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+  ["Google", "Software Engineering Intern", "Pittsburgh, PA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"],
+  ["Google", "Software Engineering Intern", "San Francisco, CA", "https://www.google.com/about/careers/applications/jobs/results/133334514184135366-software-engineering-intern-bs-summer-2025?utm_source=Simplify&ref=Simplify", "09-30-2024"]
+
+]
+
 """List of Computer Science Internships"""
 csList = [
     ["Netflix", "Software Engineer Intern", "Los Angeles, CA", "https://explore.jobs.netflix.net/careers/job/790298739171?utm_source=Simplify&ref=Simplify", "09-04-2024"], 
@@ -117,13 +145,13 @@ accountingList = [
 
 """List of Communication Internships"""
 communicationList = [
-    ["ABC7 Los Angeles", "Communications Intern", "Glendale, CA", "https://abc7.com/jobs/abc7-internship-program/1234567", "October 10, 2024"],
-    ["Warner Bros. Discovery", "Public Relations Intern", "Burbank, CA", "https://www.wbd.com/careers/internships", "October 5, 2024"],
-    ["Los Angeles Times", "Communications Intern", "El Segundo, CA", "https://www.latimes.com/careers/internships", "October 1, 2024"],
-    ["Sony Pictures Entertainment", "Marketing & Communications Intern", "Culver City, CA", "https://www.sonypictures.com/careers/internships", "September 29, 2024"],
-    ["Disneyland Resort", "Public Relations Intern", "Anaheim, CA", "https://jobs.disneycareers.com/disneyland", "October 10, 2024"],
-    ["Irvine Company", "Marketing Communications Intern", "Irvine, CA", "https://www.irvinecompany.com/careers/internships", "October 8, 2024"],
-    ["Orange County Register", "Communications Intern", "Santa Ana, CA", "https://www.ocregister.com/careers", "October 5, 2024"],
-    ["California State University, Fullerton", "Communications Intern", "Fullerton, CA", "https://hr.fullerton.edu/", "September 30, 2024"],
-    ["Blizzard Entertainment", "Community Relations Intern", "Irvine, CA", "https://careers.blizzard.com/", "September 28, 2024"]
+    ["ABC7 Los Angeles", "Communications Intern", "Glendale, CA", "https://abc7.com/jobs/abc7-internship-program/1234567", "10-10-2024"],
+    ["Warner Bros. Discovery", "Public Relations Intern", "Burbank, CA", "https://www.wbd.com/careers/internships", "10-5-2024"],
+    ["Los Angeles Times", "Communications Intern", "El Segundo, CA", "https://www.latimes.com/careers/internships", "10-1-2024"],
+    ["Sony Pictures Entertainment", "Marketing & Communications Intern", "Culver City, CA", "https://www.sonypictures.com/careers/internships", "9-29-2024"],
+    ["Disneyland Resort", "Public Relations Intern", "Anaheim, CA", "https://jobs.disneycareers.com/disneyland", "10-10-2024"],
+    ["Irvine Company", "Marketing Communications Intern", "Irvine, CA", "https://www.irvinecompany.com/careers/internships", "10-8-2024"],
+    ["Orange County Register", "Communications Intern", "Santa Ana, CA", "https://www.ocregister.com/careers", "10-5-2024"],
+    ["California State University, Fullerton", "Communications Intern", "Fullerton, CA", "https://hr.fullerton.edu/", "9-30-2024"],
+    ["Blizzard Entertainment", "Community Relations Intern", "Irvine, CA", "https://careers.blizzard.com/", "9-28-2024"]
 ]

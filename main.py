@@ -1,13 +1,14 @@
 import sqlite3
 import streamlit as st
 from datetime import datetime
-from internshipsLists import csList, eeList, ceList, meList, businessList, accountingList, communicationList
+from internshipsLists import faangList, csList, eeList, ceList, meList, businessList, accountingList, communicationList
 from city_to_county import get_county_from_city
 from sortDatePublished import sort_internships
 import pandas as pd
 
 # Map majors to their corresponding internship lists
 internship_data = {
+    "FAANG": faangList,
     "Computer Science": csList,
     "Electrical Engineering": eeList,
     "Civil Engineering": ceList,
@@ -20,13 +21,16 @@ internship_data = {
 # Streamlit app setup
 st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
 
+# Banner of website
+
+
 # Title of the app
 st.title(":red[I]:orange[n]:green[t]:red[e]:orange[r]:green[n]:red[s] :blue[R] :green[U]:red[s] :sparkles:")
 st.subheader("A database of internships categorized by major :technologist:")
 
 # Sidebar for user input
 st.sidebar.header("Filter Internships")
-major = st.sidebar.selectbox("Select your major", ["", "Computer Science", "Electrical Engineering", "Civil Engineering", "Mechanical Engineering", "Business", "Accounting", "Communication"])
+major = st.sidebar.selectbox("Select your major", ["", "FAANG", "Computer Science", "Electrical Engineering", "Civil Engineering", "Mechanical Engineering", "Business", "Accounting", "Communication"])
 county = st.sidebar.selectbox("Select your county", ["", "Los Angeles County", "Orange County"])
 
 # Connect to SQLite database or create it if it doesn't exist
