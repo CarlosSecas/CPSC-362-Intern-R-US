@@ -2,6 +2,10 @@
 
 ToDoList: 11/19
 
+How to use streamlit:
+- Download streamlit in the terminal through command: pip install streamlit
+- Run website through command: streamlit run main.py
+
 InternshipsDataBase:
 - Add more Internships and Majors
 
@@ -24,5 +28,5 @@ Documents needed for the project:
 HOW TO USE CONTACT US:
 - sqlite3 messages.db in terminal
 - .tables
-- SELECT * FROM messages
+- SELECT * FROM messages;
 
