@@ -1,32 +1,13 @@
-# CPSC-362-Intern-R-US
-
-ToDoList: 11/19
+CPSC-362-Interns-R-US
+About Interns R Us:
+Interns R Us is a python-based website using the vast streamlit library that provides students a variety of databases of internships based off of major and its location. This project is dedicated to CSUF's CPSC 362 course.
 
 How to use streamlit:
-- Download streamlit in the terminal through command: pip install streamlit
-- Run website through command: streamlit run main.py
+Download streamlit in the terminal through command: pip install streamlit
+Run website through command: streamlit run main.py
 
-InternshipsDataBase:
-- Add more Internships and Majors
-
-Homepage:
-- Link new Internships to Website
-- Update Website: More features Possibly / Update Look
-- Add Faang Section
-- (Potential) Create a favorite list
-
-Documents needed for the project:
-1. Activity Diagram               //DONE : UPDATE
-2. Use Case Diagram
-3. CRC Diagrams                   //DONE
-4. Source Code in a zip file
-5. Read me file (text)
-6. Executable file
-7. Final presentation PPT file
-8. Test Cases
-
-HOW TO USE CONTACT US:
-- sqlite3 messages.db in terminal
-- .tables
-- SELECT * FROM messages;
-
+How to read messages:
+Go to terminal and type these commands:
+sqlite3 messages.db
+.tables
+SELECT * FROM messages;

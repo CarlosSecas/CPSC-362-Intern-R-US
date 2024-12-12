@@ -21,17 +21,36 @@ internship_data = {
 # Streamlit app setup
 st.set_page_config(page_title="Interns R Us", page_icon=":tada:", layout="wide")
 
-# Banner of website
-
-
 # Title of the app
-st.title(":red[I]:orange[n]:green[t]:red[e]:orange[r]:green[n]:red[s] :blue[R] :green[U]:red[s] :sparkles:")
-st.subheader("A database of internships categorized by major :technologist:")
+with st.container():
+    st.title(":red[I]:orange[n]:green[t]:red[e]:orange[r]:green[n]:red[s] :blue[R] :green[U]:red[s] :sparkles:")
+    st.subheader("A database of internships categorized by :red[major] :computer:")
 
 # Sidebar for user input
-st.sidebar.header("Filter Internships")
-major = st.sidebar.selectbox("Select your major", ["", "FAANG", "Computer Science", "Electrical Engineering", "Civil Engineering", "Mechanical Engineering", "Business", "Accounting", "Communication"])
-county = st.sidebar.selectbox("Select your county", ["", "Los Angeles County", "Orange County"])
+st.sidebar.header("Filter :red[I]:orange[n]:green[t]:blue[e]:red[r]:green[n]:red[s]hip :mag:")
+major = st.sidebar.selectbox("Select your :red[major] :closed_book:", ["", "FAANG", "Computer Science", "Electrical Engineering", "Civil Engineering", "Mechanical Engineering", "Business", "Accounting", "Communication"])
+county = st.sidebar.selectbox("Select your :orange[county] :sunrise:", ["", "Los Angeles County", "Orange County"])
+
+# Function to save a message
+def save_message(name, email, message):
+    cursor.execute("INSERT INTO messages (name, email, message) VALUES (?, ?, ?)",
+                   (name, email, message))
+    conn.commit()
+
+
+# Contact form feature
+st.sidebar.header("Contact :green[U]:red[s] :memo:")
+name = st.sidebar.text_input("Your :blue[Name] :raising_hand:")
+email = st.sidebar.text_input("Your :green[Email] :envelope:")
+message = st.sidebar.text_area("Message")
+
+if st.sidebar.button("Submit"):
+    if name and email and message:
+        save_message(name, email, message)
+        st.sidebar.success("Thank you for your message!")
+    else:
+        st.sidebar.error("Please fill out all fields.")
+
 
 # Connect to SQLite database or create it if it doesn't exist
 def get_db_connection():
@@ -53,14 +72,8 @@ def get_db_connection():
 conn = get_db_connection()
 cursor = conn.cursor()
 
-# Function to save a message
-def save_message(name, email, message):
-    cursor.execute("INSERT INTO messages (name, email, message) VALUES (?, ?, ?)",
-                   (name, email, message))
-    conn.commit()
-
 # Display search bar
-intern_search = st.text_input("Search Internships by Company or Position!", value="")
+intern_search = st.text_input("Search Internships by Company or Position! :scroll:", value="")
 
 # Space Separator
 st.text("")
@@ -68,7 +81,7 @@ st.text("")
 # Display internships based on the selected major and county
 if major or intern_search:  # Trigger search if either a major is selected or the search bar is used
     if major:
-        st.subheader(f"Available Internships for {major}")
+        st.subheader(f"Available :red[I]:orange[n]:green[t]:blue[e]:red[r]:green[n]:red[s]hips for {major} :bangbang:")
         internships = internship_data.get(major, [])
     else:
         # If no major is selected, include all internships for the search
@@ -109,30 +122,17 @@ if major or intern_search:  # Trigger search if either a major is selected or th
 
         # Display the filtered internships
         if not df.empty:
+            st.markdown(f"**{len(df)}** internships found matching your criteria.")
             st.dataframe(
                 df[["Company", "Date", "Position", "Location", "Link"]],
                 width=9999,
                 column_config={"Link": st.column_config.LinkColumn("Website URL")},
                 hide_index=True
             )
-            st.markdown(f"**{len(df)}** internships found matching your criteria.")
         else:
             st.write("No internships found matching your search criteria.")
     else:
         st.write("No internships available for the selected major.")
-
-# Contact form feature
-st.sidebar.header("Contact Us")
-name = st.sidebar.text_input("Your Name")
-email = st.sidebar.text_input("Your Email")
-message = st.sidebar.text_area("Message")
-
-if st.sidebar.button("Submit"):
-    if name and email and message:
-        save_message(name, email, message)
-        st.sidebar.success("Thank you for your message!")
-    else:
-        st.sidebar.error("Please fill out all fields.")
 
 # Closes the database connection
 conn.close()
