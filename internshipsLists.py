@@ -47,16 +47,13 @@ csList = [
 
 """List of Electricl Engineer Internships"""
 eeList = [
-    ["Northrop Grumman", "Electrical Engineering Intern", "Redondo Beach, CA", "https://www.northropgrumman.com/careers/"],
-    ["NASA Jet Propulsion Laboratory", "Electrical Engineer Intern", "Pasadena, CA", "https://www.jpl.nasa.gov/edu/intern/"],
-    ["Raytheon Technologies", "Electrical Engineering Intern", "El Segundo, CA", "https://jobs.raytheon.com/"],
-    ["SpaceX", "Electrical Engineering Intern", "Hawthorne, CA", "https://www.spacex.com/careers/"],
-    ["General Atomics", "Electrical Engineering Intern", "San Diego, CA (near LA County)", "https://www.ga.com/careers"],
-    ["Los Angeles Department of Water and Power", "Electrical Engineering Intern", "Los Angeles, CA", "https://www.ladwp.com/"],
-    ["Boeing", "Electrical Engineering Intern", "Long Beach, CA", "https://jobs.boeing.com/"],
-    ["L3Harris Technologies", "Electrical Engineering Intern", "Los Angeles, CA", "https://careers.l3harris.com/"],
-    ["Kaiser Permanente", "Electrical Engineering Intern", "Los Angeles, CA", "https://www.kaiserpermanentejobs.org/"],
-    ["California Institute of Technology (Caltech)", "Electrical Engineering Intern", "Pasadena, CA", "https://www.caltech.edu/careers"],
+    ["Southern California Edison", "2025 Summer Internship - Electrical Engineering & Industrial Engineering", "Alhambra, CA", "https://www.edisoncareers.com/job/21168134/2025-summer-internship-electrical-engineering-industrial-engineering-alhambra-ca/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", ""],
+    ["Parsons Corporation ", "Electrical Engineering Intern - Summer 2025", "Pasadena, CA", "https://jobs.parsons.com/jobs/electrical-engineering-intern-summer-2025-pasadena-r-158175-jobs--internship-program--?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", "11-01-2024"],
+    ["Mach Industries", "Summer Intern 2025 - Electrical Engineer", "Huntington Beach, CA ", "https://www.indeed.com/viewjob?jk=1e6d041d0dfe3266&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&from=iaBackPress", ""],
+    ["Second Order Effects", "Electrical Engineering Intern (Summer 2025)", "El Segundo, CA", "Link", ""],
+    ["Anduril Industries", "Electrical Engineer Intern (Summer 2025)", "Los Angeles, CA", "https://app.welcometothejungle.com/jobs/cY42dgAl?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", ""],
+    ["Vast", "Summer 2025 Internship - Electrical Engineering", "Long Beach, CA ", "https://www.linkedin.com/jobs/view/summer-2025-internship-electrical-engineering-at-vast-4020934418?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&original_referer=https%3A%2F%2Fwww.google.com%2F", "12-04-2024"],
+    ["Burns Brand", "Electrical Engineering Intern - Summer 2025", "Westchester, CA", "https://www.adzuna.com/details/4918475542?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic", ""]
 ]
 
 """List of civil Engineer Internships"""
