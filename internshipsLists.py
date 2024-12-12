@@ -58,26 +58,13 @@ eeList = [
 
 """List of civil Engineer Internships"""
 ceList = [
-    ["AECOM", "Civil Engineering Intern", "Los Angeles, CA", "https://www.aecom.com/careers/"],
-    ["WSP USA", "Civil Engineering Intern", "Los Angeles, CA", "https://www.wsp.com/en-US/careers"],
-    ["Jacobs", "Civil Engineering Intern", "Los Angeles, CA", "https://www.jacobs.com/careers"],
-    ["Caltrans", "Civil Engineering Intern", "Los Angeles, CA", "https://dot.ca.gov/"],
-    ["Kimley-Horn", "Civil Engineering Intern", "Los Angeles, CA", "https://www.kimley-horn.com/careers/"],
-    ["HDR", "Civil Engineering Intern", "Los Angeles, CA", "https://www.hdrinc.com/careers"],
-    ["Tetra Tech", "Civil Engineering Intern", "Los Angeles, CA", "https://www.tetratech.com/en/careers"],
-    ["Los Angeles County Department of Public Works", "Civil Engineering Intern", "Los Angeles, CA", "http://dpw.lacounty.gov/"],
-    ["Mott MacDonald", "Civil Engineering Intern", "Los Angeles, CA", "https://www.mottmac.com/careers"],
-    ["SNC-Lavalin", "Civil Engineering Intern", "Los Angeles, CA", "https://www.snclavalin.com/en/careers"],
-    ["AECOM", "Civil Engineering Intern", "Irvine, CA", "https://www.aecom.com/careers/"],
-    ["WSP USA", "Civil Engineering Intern", "Orange, CA", "https://www.wsp.com/en-US/careers"],
-    ["Jacobs", "Civil Engineering Intern", "Santa Ana, CA", "https://www.jacobs.com/careers"],
-    ["Kimley-Horn", "Civil Engineering Intern", "Irvine, CA", "https://www.kimley-horn.com/careers/"],
-    ["Mott MacDonald", "Civil Engineering Intern", "Irvine, CA", "https://www.mottmac.com/careers"],
-    ["Tetra Tech", "Civil Engineering Intern", "Costa Mesa, CA", "https://www.tetratech.com/en/careers"],
-    ["Orange County Public Works", "Civil Engineering Intern", "Orange, CA", "https://www.ocpw.ocgov.com/"],
-    ["Los Angeles Department of Water and Power", "Civil Engineering Intern", "Irvine, CA", "https://www.ladwp.com/"],
-    ["PCL Construction", "Civil Engineering Intern", "Irvine, CA", "https://www.pcl.com/en/careers"],
-    ["Civiltec Engineering", "Civil Engineering Intern", "Lake Forest, CA", "https://civiltec.com/careers/"],
+    ["Southern California Edison","2025 Summer Internship - Civil and Structural Engineering","Pomona, CA","https://www.edisoncareers.com/job/20987145/2025-summer-internship-civil-and-structural-engineering/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",""],
+    ["AECOM","Civil Engineer Intern","Los Angeles, CA","https://aecom.jobs/los-angeles-ca/civil-engineer-intern/6F5F7BD7B82247B887CA70C15D7DA2F5/job/?vs=25&utm_source=RR+RSS+Feed-DE&utm_source=google_jobs_apply&utm_medium=Other&utm_medium=organic&utm_campaign=RR+RSS+Feed&utm_campaign=google_jobs_apply",""],
+    ["AECOM","Civil Engineer Intern","Orange, CA","https://aecom.jobs/orange-ca/civil-engineer-intern/8D25AE129C6A4EB6992392B44B9C15D4/job/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic","12-04-2024"],
+    ["City of Santa Ana","Engineering Intern (Part-Time)","Santa Ana, CA","https://www.governmentjobs.com/careers/santaana/jobs/4582443/engineering-intern-part-time?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic","07-17-2024"],
+    ["Kiewit","Field/Office Engineer Internship - Southern California District (Summer 2025)","Santa Fe Springs, CA","https://www.linkedin.com/jobs/view/field-office-engineer-internship-southern-california-district-summer-2025-at-kiewit-4016439022/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic","12-02-2024"],
+    ["Kennedy/Jenks Consulting","Civil Engineering Intern","Pasadena, CA","https://www.indeed.com/viewjob?jk=e227fffc2d30324f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",""],
+    ["KPFF Consulting Engineers","Engineering - Civil Engineering Internship","Los Angeles, CA ","https://www.linkedin.com/jobs/view/engineering-civil-engineering-internship-at-kpff-consulting-engineers-4080305682/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic","11-20-2024"]
 ]
 
 """List of Mechanical Engineer Internships"""
